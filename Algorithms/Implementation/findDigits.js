@@ -1,13 +1,13 @@
 //-------------------------------------------------------
 //Problem Statement:
-//https://www.hackerrank.com/challenges/reduced-string/problem
+//https://www.hackerrank.com/challenges/find-digits/problem
 //-------------------------------------------------------
 
 //Language: Javascipt (Node.js)
 
 //Instructions to run:
 // 1. save the sample input/any input that you want to test in a file named anything e.g. file.txt
-// 2. run in terminal: node reducedString.js < file.txt
+// 2. run in terminal: node findDigits.js < file.txt
 
 'use strict';
 
@@ -32,20 +32,22 @@ function readLine() {
 }
 
 /////////////// ignore above this line ////////////////////
-function super_reduced_string(s){
-    
-    for (let i = 1; i < s.length; i++) {
-        if (s[i] === s[i-1]) {
-            s = s.split('').filter((element, index) => index !== i && index !== i-1).join('');
-            i = 0;   
-        }
-    }
-    return s !== '' ? s : 'Empty String';
+
+function findDigits(n) {
+    let digits = n.toString().split('');
+    let counter = 0;
+    digits.forEach(digit => {
+        counter = digit !== 0 && n % parseInt(digit) === 0 ? counter + 1 : counter;
+    });
+    return counter;
 }
 
 function main() {
-    var s = readLine();
-    var result = super_reduced_string(s);
-    process.stdout.write("" + result + "\n");
+    var t = parseInt(readLine());
+    for(var a0 = 0; a0 < t; a0++){
+        var n = parseInt(readLine());
+        var result = findDigits(n);
+        process.stdout.write("" + result + "\n");
+    }
 
 }
