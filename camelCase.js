@@ -8,7 +8,7 @@
 
 //Instructions to run:
 // 1. save the sample input/any input that you want to test in a file named anything e.g. file.txt
-// 2. run in terminal node cameCase.js < file.txt
+// 2. run in terminal: node cameCase.js < file.txt
 
 
 'use strict';
