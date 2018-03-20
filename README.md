@@ -30,6 +30,7 @@ Each file is named after the challenge and inside each files are urls for the re
    - Extra long Factorials
    - Find Digits
    - Grading Students
+   - Library Fine
    - Migratory Birds
    - Sock Merchant
    - Taum and B'day
