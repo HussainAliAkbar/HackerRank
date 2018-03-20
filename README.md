@@ -24,6 +24,7 @@ Each file is named after the challenge and inside each files are urls for the re
    - Breaking the records
    - Cats and a Mouse
    - Counting Valleys
+   - Cut The Sticks
    - Designer PDF Viewer
    - Divisible Sum Pairs
    - Electronics Shop
