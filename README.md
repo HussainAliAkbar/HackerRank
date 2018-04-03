@@ -41,6 +41,9 @@ Each file is named after the challenge and inside each files are urls for the re
    - Camel Case
    - Reduced String
 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4. Search](https://www.hackerrank.com/domains/algorithms/search)
+   - Ice Cream Parlor
+
 
 
 Feel free to review and let me know how can these solutions be further improved!
