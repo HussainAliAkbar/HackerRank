@@ -43,6 +43,7 @@ Each file is named after the challenge and inside each files are urls for the re
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4. Search](https://www.hackerrank.com/domains/algorithms/search)
    - Ice Cream Parlor
+   - Sherlock and Array
 
 
 
