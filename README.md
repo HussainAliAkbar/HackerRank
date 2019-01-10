@@ -35,6 +35,7 @@ Each file is named after the challenge and inside each files are urls for the re
    - Migratory Birds
    - Repeated String
    - Sock Merchant
+   - Strange Advertising
    - Taum and B'day
    - The Hurdle Race
    - Utopian Tree
