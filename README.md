@@ -33,8 +33,10 @@ Each file is named after the challenge and inside each files are urls for the re
    - Grading Students
    - Library Fine
    - Migratory Birds
+   - Repeated String
    - Sock Merchant
    - Taum and B'day
+   - The Hurdle Race
    - Utopian Tree
    
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3. Strings](https://github.com/HussainAliAkbar/HackerRank/tree/master/Algorithms/Strings)
